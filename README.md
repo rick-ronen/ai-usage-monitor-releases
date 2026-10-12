@@ -31,6 +31,10 @@ Get the latest version from the **[Releases page](https://github.com/rick-ronen/
 | `AIUsageMonitor-WorkLaptop-X.Y.Z.zip` | PCs where an administrator installs software. Installs for all users in Program Files; the steps are in `WORK-LAPTOP-INSTALL.md` inside the ZIP. |
 | `SHA256SUMS.txt` | SHA-256 checksums of both files. |
 
+## Troubleshooting
+
+- If Windows says 'This program does not support the version of Windows', open the Setup.exe from File Explorer instead of the browser, or turn off compatibility mode for your browser.
+
 ## System requirements
 
 - Windows 10 (version 2004 or later) or Windows 11, 64-bit (x64).
