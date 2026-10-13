@@ -28,7 +28,7 @@ Get the latest version from the **[Releases page](https://github.com/rick-ronen/
 | File | For |
 | --- | --- |
 | `AIUsageMonitor-Setup-X.Y.Z.exe` | Most people: installs for your Windows account only, no admin rights needed. |
-| `AIUsageMonitor-WorkLaptop-X.Y.Z.zip` | PCs where an administrator installs software. Installs for all users in Program Files; the steps are in `WORK-LAPTOP-INSTALL.md` inside the ZIP. |
+| `AIUsageMonitor-Portable-X.Y.Z.zip` | PCs where an administrator installs software. Installs for all users in Program Files; the steps are in `WORK-LAPTOP-INSTALL.md` inside the ZIP. |
 | `SHA256SUMS.txt` | SHA-256 checksums of both files. |
 
 ## Troubleshooting
@@ -72,3 +72,5 @@ Bugs, ideas, or anything you don't like: **aiusagemonitor.feedback@gmail.com**. 
 ---
 
 Not affiliated with or endorsed by OpenAI, Anthropic or any other AI company. Product names belong to their owners.
+
+Product logos are not shown. The app uses its own badges and names the products in plain text, following the companies' brand rules.
