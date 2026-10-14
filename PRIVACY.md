@@ -1,6 +1,6 @@
 # Privacy policy - AI Usage Monitor
 
-Last updated: October 12, 2026 (version 0.9.4)
+Last updated: October 14, 2026 (version 0.9.12)
 
 AI Usage Monitor is a small Windows app that shows your Claude Code and Codex usage limits. This page says what it does with your data. Short version: everything stays on your PC.
 
@@ -9,6 +9,7 @@ AI Usage Monitor is a small Windows app that shows your Claude Code and Codex us
 - Your settings, your usage history and the app's logs are kept in `%LOCALAPPDATA%` on your PC. They are never uploaded anywhere.
 - The usage numbers come from Claude Code and Codex on your PC: the app asks those tools for them. Claude Code and Codex contact Anthropic and OpenAI the way they normally do; the app itself does not.
 - Daily goal and session alerts are worked out on your PC. A Windows notification is shown by Windows on your PC; nothing about it is sent anywhere.
+- **Export / Print** (History) makes a PDF report or CSV file on your PC, in the folder you choose, or sends the report to the printer you pick. The app uploads nothing. If you save into a folder that OneDrive (or another cloud service) syncs, that service uploads the file like any other file there; the app tells you when the folder is a OneDrive folder. The PDF holds no user name, computer name, folder path, account or e-mail.
 
 ## Passwords, keys and tokens
 
