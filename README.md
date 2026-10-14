@@ -15,11 +15,19 @@ This repository holds the installers, release notes and privacy policy. It conta
 - Made for people who use Codex and Claude Code. It shows coding-tool limits, not chat limits.
 - ChatGPT chat usage isn't shown. OpenAI doesn't offer a way to read it, so the app can't.
 - Claude chat (claude.ai and the Claude apps) shares the same limits as Claude Code, so your Claude numbers already include your chats.
-- **History:** what you used each day against that day's budget, and any checks that failed, with the reason.
+- **History:** what you used each day against that day's budget. Move between weeks, months and years, or pick your own dates.
+- **Day view:** every reading of a day on a 24-hour chart, with the hours that had no readings shaded. Click a day, a week or a month to open it.
+- **5-hour sessions:** for each day, every Claude session with its peak, when it reached the limit and how long you waited for the reset (saved from 0.9.13 on). Codex doesn't report 5-hour sessions on this plan.
+- **Statistics:** your busiest and quietest days, averages, streaks, when you use it (by weekday and hour), how your sessions went, and fun facts. For a week, a month, a year or all time.
+- **Missed checks:** any checks that failed, with the reason.
+- **Export** your history as a PDF report or CSV, or print it, also for a single day. Print or save sessions and statistics as PDF or CSV. Nothing leaves your computer; the file is saved where you choose.
+- **New setting:** date and time format (24-hour or AM/PM), starts with your Windows setting.
 
 | Dashboard | History |
 | --- | --- |
 | ![Dashboard](images/dashboard.png) | ![History](images/history.png) |
+
+![Statistics](images/statistics.png)
 
 ## Download
 
