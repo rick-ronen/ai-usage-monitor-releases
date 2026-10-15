@@ -22,12 +22,19 @@ This repository holds the installers, release notes and privacy policy. It conta
 - **Missed checks:** any checks that failed, with the reason.
 - **Export** your history as a PDF report or CSV, or print it, also for a single day. Print or save sessions and statistics as PDF or CSV. Nothing leaves your computer; the file is saved where you choose.
 - **New setting:** date and time format (24-hour or AM/PM), starts with your Windows setting.
+- **Runs:** each Claude Code and Codex run with its time, tokens, speed and estimated **API value**, read only from the session files on your computer (numbers and folder names; never your prompts or code). Compare 2 to 6 runs, and see which models and effort levels used your tokens. "API value" is what a run would cost at public pay-as-you-go API prices: an estimate, not your bill.
+- **Storage:** see how much space your history uses, keep it forever or for the last months or years, set a size limit, save a backup, and clear old months (a backup CSV of what is deleted is saved first).
+- **Update check time:** choose when the app checks for a new version: morning, noon, evening or night (or off). It also checks at every start.
 
 | Dashboard | History |
 | --- | --- |
 | ![Dashboard](images/dashboard.png) | ![History](images/history.png) |
 
 ![Statistics](images/statistics.png)
+
+| Runs | Storage |
+| --- | --- |
+| ![Runs](images/runs.png) | ![Storage](images/storage.png) |
 
 ## Download
 
@@ -64,14 +71,14 @@ To uninstall: Windows Settings > Apps > Installed apps > **AI Usage Monitor (tes
 
 ## How updates work
 
-- Once a day the app asks GitHub for the number of the latest release in this repository. Nothing about you or your usage is sent. You can turn this off in **Settings > Updates**; the **Check for updates** button on the About page works either way.
+- At every start, and once a day at the time you choose in **Settings > Updates** (morning, noon, evening or night, a few minutes later at random), the app asks GitHub for the number of the latest release in this repository. Nothing about you or your usage is sent. **Off** stops the daily check; the **Check for updates** button on the About page works either way.
 - When a new version is out, a blue dot shows next to **About**. There is no popup.
 - **Setup.exe installs:** **Download and install** downloads the new Setup.exe from this repository, checks it against `SHA256SUMS.txt`, closes the app for a few seconds while it installs, and opens it again. Your history and settings are kept. Nothing is installed without asking you.
 - **All-users installs** (Program Files) can't update themselves. The app shows the download link to pass on to whoever installs software on that PC.
 
 ## Privacy
 
-Everything stays on your PC. The app never asks for, reads or sends passwords, keys or tokens. Details: [PRIVACY.md](PRIVACY.md).
+Everything stays on your PC. The app never asks for, reads or sends passwords, keys or tokens. Runs are read from Claude Code's and Codex's session files on your PC (numbers and folder names only) and never leave it. Details: [PRIVACY.md](PRIVACY.md).
 
 ## Feedback
 
