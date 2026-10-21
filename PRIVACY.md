@@ -1,6 +1,6 @@
 # Privacy policy - AI Usage Monitor
 
-Last updated: October 15, 2026 (version 0.9.16)
+Last updated: October 21, 2026 (version 1.0.0)
 
 AI Usage Monitor is a small Windows app that shows your Claude Code and Codex usage limits. This page says what it does with your data. Short version: everything stays on your PC.
 
@@ -35,6 +35,15 @@ The app makes one network call: at every start and once a day (at the time you c
 - You can turn the daily check off in **Settings > Updates** (then the app checks only when it starts). The **Check for updates** button on the About page always works.
 
 If you click **Download and install**, the app downloads the new installer and its checksum file from this repository's releases on GitHub. Nothing is downloaded or installed without your click.
+
+## Microsoft Store version
+
+The app is also available from the Microsoft Store ("AI Usage Monitor for Windows"). Everything on this page applies to it too, with these differences:
+
+- **No update check, no network use.** The Store version never contacts GitHub or any other server, so the section "The one network call" above does not apply to it. Updates come from the Microsoft Store. Only Claude Code and Codex themselves go online, the way they normally do.
+- **Where data is kept.** Settings, usage history, runs and logs are kept in the app's own package folder on your PC: `%LOCALAPPDATA%\Packages\RonenRick.AIUsageMonitorforWindows_2jz5gdk540a00\LocalState\AIUsageMonitor`. **Settings > Storage** shows the folder and opens it.
+- **Uninstalling removes it.** When you uninstall the Store version, Windows deletes that folder with everything in it. Reports you exported stay in the folder you saved them to.
+- **Import from the GitHub version is local only.** If the GitHub version was used on the same PC, the Store version offers to copy its history (readings, runs and missed checks) from `%LOCALAPPDATA%\AIUsageMonitorApp`. The copy happens on your PC; nothing is uploaded, and the GitHub version's files are not changed or deleted.
 
 ## Crash reports
 
