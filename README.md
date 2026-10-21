@@ -65,9 +65,9 @@ The app reads usage from these coding tools only, not from the Claude or ChatGPT
 1. Download `AIUsageMonitor-Setup-X.Y.Z.exe` from the Releases page.
 2. Optional: check the file. In PowerShell, `Get-FileHash .\AIUsageMonitor-Setup-X.Y.Z.exe` must show the same SHA-256 as `SHA256SUMS.txt`.
 3. Run it. The installer isn't code-signed yet, so Windows shows **"Windows protected your PC"** once: click **More info**, then **Run anyway**.
-4. It installs to `%LOCALAPPDATA%\Programs\AIUsageMonitor` with Start menu and desktop shortcuts named **AI Usage Monitor (test)**. Tick **Start when I sign in** if you want it to start with Windows (you can change that later in the app's Settings).
+4. It installs to `%LOCALAPPDATA%\Programs\AIUsageMonitor` with Start menu and desktop shortcuts named **AI Usage Monitor** (from 1.0.0; an update removes the older shortcuts that had "(test)" in the name). Tick **Start when I sign in** if you want it to start with Windows (you can change that later in the app's Settings).
 
-To uninstall: Windows Settings > Apps > Installed apps > **AI Usage Monitor (test build)** > Uninstall. Your settings and history are kept unless you tick **Remove my data too**.
+To uninstall: Windows Settings > Apps > Installed apps > **AI Usage Monitor** > Uninstall. Your settings and history are kept unless you tick **Remove my data too**.
 
 ## How updates work
 
