@@ -2,7 +2,11 @@
 
 A small Windows widget that shows how much of your **Claude Code** and **Codex** usage limits you've used this week, and how much you can use **today** so the week lasts until your limit resets.
 
-This repository holds the installers, release notes and privacy policy. It contains no source code.
+**[Get it from the Microsoft Store](https://apps.microsoft.com/detail/9NM1ZJ9HDDXW)**. The Store version updates itself through the Store.
+
+Don't use the Microsoft Store? The GitHub version on the [Releases page](https://github.com/rick-ronen/ai-usage-monitor-releases/releases/latest) is the alternative: the same app, with its own update check.
+
+This repository holds the GitHub version's installers, release notes and the privacy policy. It contains no source code.
 
 ![Compact bar](images/compact.png)
 
@@ -32,13 +36,15 @@ This repository holds the installers, release notes and privacy policy. It conta
 
 ![Statistics](images/statistics.png)
 
-| Runs | Storage |
+| Runs | Models |
 | --- | --- |
-| ![Runs](images/runs.png) | ![Storage](images/storage.png) |
+| ![Runs](images/runs.png) | ![Tokens, API value and speed by model, and the average run per effort level](images/models.png) |
 
 ## Download
 
-Get the latest version from the **[Releases page](https://github.com/rick-ronen/ai-usage-monitor-releases/releases/latest)**. Each release has:
+**Microsoft Store (recommended):** [AI Usage Monitor for Windows](https://apps.microsoft.com/detail/9NM1ZJ9HDDXW). Installs and updates through the Store. Moving from the GitHub version? The Store version offers to copy your history from it.
+
+**GitHub version:** get the latest version from the **[Releases page](https://github.com/rick-ronen/ai-usage-monitor-releases/releases/latest)**. Each release has:
 
 | File | For |
 | --- | --- |
@@ -71,6 +77,7 @@ To uninstall: Windows Settings > Apps > Installed apps > **AI Usage Monitor** > 
 
 ## How updates work
 
+- **Microsoft Store version:** updates come from the Microsoft Store. The app doesn't check GitHub for updates. The rest of this section is about the GitHub version.
 - At every start, and once a day at the time you choose in **Settings > Updates** (morning, noon, evening or night, a few minutes later at random), the app asks GitHub for the number of the latest release in this repository. Nothing about you or your usage is sent. **Off** stops the daily check; the **Check for updates** button on the About page works either way.
 - When a new version is out, a blue dot shows next to **About**. There is no popup.
 - **Setup.exe installs:** **Download and install** downloads the new Setup.exe from this repository, checks it against `SHA256SUMS.txt`, closes the app for a few seconds while it installs, and opens it again. Your history and settings are kept. Nothing is installed without asking you.
